@@ -1,0 +1,107 @@
+body{
+    font-family: 'Nunito';
+    background-image: url("wallpaper.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.header-name{
+    text-align: center;
+    background-color: rgba(245,245,245,0.2);
+    width: 30%;
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
+    height: 36px;
+    padding-top: 5px;
+    border-radius: 30px;
+}
+
+.subTitle{
+    background-color: #5E2750;
+    color: white;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+h2{
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #575ed8;
+}
+
+#myChat{
+    max-width: 500px;
+    margin: 5px auto;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+    background-color: transparent;
+    padding: 5px;
+}
+
+#chat-window{
+    height: 370px;
+    overflow: auto;
+    background: #f9f9f9;
+    background-color: rgba(245,245,245,0.2);
+    border-radius: 25px;
+}
+
+#output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #575ed8;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-family: Nunito;
+    font-size: 16px;
+}
+
+button{
+    background: #5E2750;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+    transition: all 1s;
+}
+
+button:hover{
+    background-color: #E95420;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
